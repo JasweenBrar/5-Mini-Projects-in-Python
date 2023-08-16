@@ -1,7 +1,7 @@
 # 5-Mini-Projects-in-Python
 Practicing Python by developing small projects.
 
-<b>Project 1</b>: Grocery Store Calculator and Receipt Generator
+<b>Project 1: Grocery Store Calculator and Receipt Generator</b>
 <br>
 A bill calculator and receipt generator for a general store
 
@@ -10,7 +10,7 @@ A bill calculator and receipt generator for a general store
 
 We are using a while loop which runs till the user hits the Enter key. We've initialized the sum variable as 0, and every time the user inputs a new price(integer), the value gets added to the previous value of the sum. Once the user hits the enter key, the while loop is stopped with the help of a break statement.
 
-
+**Code:**
 ```
 sum = 0
 listName = []
@@ -51,18 +51,20 @@ print(f"Total          =       Rs.{sum}")
 ```
 
 
-Output :
+**Output:**
+```
 
+```
 
 ---
 
-<b>Project 2</b>: Currency Converter
+<b>Project 2: Currency Converter</b>
 <br>
 We store the exchange rates of different currencies in a text file. After this, we're reading the data from the text file. Then, we're iterating over the text file's data (currencyData.txt), which is stored in the lines variable using a for loop and parsing the data to a dictionary variable named currencyDict.
 
 We're done with the data fetching part. Now, we take the input of the amount that the user wants to convert. Once the user inputs some amount, the list of all different currencies is displayed to the user. In the end, we convert the amount entered by the user to the selected currency for exchange. 
 
-
+**Code:**
 ```
 with open('currencyData.txt') as f:
 	lines = f.readlines()
@@ -79,24 +81,53 @@ currency = input("Please enter one of these values: \n")
 print(f"{amount} INR is equal to {amount *float(currencyDict[currency])} {currency}")
 ```
 
+**Output:**
+```
 
-Output:
-
+```
 
 ---
 
-<b>Project 3</b>: Password Generator
+<b>Project 3: Password Generator</b>
 <br>
+**Code:**
+```
+
+```
+
+**Output:**
+```
+
+```
 
 ---
 
-<b>Project 4</b>: Secure My Passwords through Python
+<b>Project 4: Secure My Passwords through Python</b>
 <br>
+**Code:**
+```
+
+```
+
+**Output:**
+```
+
+```
 
 ---
 
-<b>Project 5</b>: Hangman Game
+<b>Project 5: Hangman Game</b>
 <br>
 A basic command-line program: Hangman! The game will allow for user input, and will also output a visual of the hangman alongside the word that’s being guessed. 
+
+**Code:**
+```
+
+```
+
+**Output:**
+```
+
+```
 
 ----
