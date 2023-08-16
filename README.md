@@ -1,7 +1,9 @@
 # 5-Mini-Projects-in-Python
 Practicing Python by developing small projects.
 
-### 💠 Project 1: Grocery Store Calculator and Receipt Generator
+* [Project 1: Grocery Store Calculator and Receipt Generator](#project-1)
+
+### <a name="project-1"></a> 💠 Project 1: Grocery Store Calculator and Receipt Generator
 
 A bill calculator and receipt generator for a general store
 
