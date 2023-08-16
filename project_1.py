@@ -30,7 +30,6 @@ for i in range(len(listPrice)):
     for j in range(23-len(listName[i])):
         print(" ",end="")
     print(f"Rs.{listPrice[i]}")    
-    #print(f"{listName[i]}           {listPrice[i]}")
     print("---------------------------------")
     
 print(f"Total          =       Rs.{sum}")    
