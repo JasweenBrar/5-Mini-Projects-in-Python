@@ -1,8 +1,8 @@
 # 5-Mini-Projects-in-Python
 Practicing Python by developing small projects.
 
-<b>Project 1: Grocery Store Calculator and Receipt Generator</b>
-<br>
+### 💠 Project 1: Grocery Store Calculator and Receipt Generator
+
 A bill calculator and receipt generator for a general store
 
 
@@ -58,8 +58,8 @@ print(f"Total          =       Rs.{sum}")
 
 ---
 
-<b>Project 2: Currency Converter</b>
-<br>
+### 💠 Project 2: Currency Converter</b>
+
 We store the exchange rates of different currencies in a text file. After this, we're reading the data from the text file. Then, we're iterating over the text file's data (currencyData.txt), which is stored in the lines variable using a for loop and parsing the data to a dictionary variable named currencyDict.
 
 We're done with the data fetching part. Now, we take the input of the amount that the user wants to convert. Once the user inputs some amount, the list of all different currencies is displayed to the user. In the end, we convert the amount entered by the user to the selected currency for exchange. 
@@ -88,8 +88,8 @@ print(f"{amount} INR is equal to {amount *float(currencyDict[currency])} {curren
 
 ---
 
-<b>Project 3: Password Generator</b>
-<br>
+### 💠 Project 3: Password Generator</b>
+
 **Code:**
 ```
 
@@ -102,8 +102,8 @@ print(f"{amount} INR is equal to {amount *float(currencyDict[currency])} {curren
 
 ---
 
-<b>Project 4: Secure My Passwords through Python</b>
-<br>
+### 💠 Project 4: Secure My Passwords through Python
+
 **Code:**
 ```
 
@@ -116,8 +116,8 @@ print(f"{amount} INR is equal to {amount *float(currencyDict[currency])} {curren
 
 ---
 
-<b>Project 5: Hangman Game</b>
-<br>
+### 💠 Project 5: Hangman Game
+
 A basic command-line program: Hangman! The game will allow for user input, and will also output a visual of the hangman alongside the word that’s being guessed. 
 
 **Code:**
